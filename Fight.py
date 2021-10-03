@@ -8,7 +8,12 @@ print("vegeta power level: ", v)
 print("goku power level:   ", g)
 print()
 while True:
-   sleep(2)
+   sleep(1)
+   print("...")
+   sleep(1)
+   print("...")
+   sleep(1)
+   print("...")
    num = random.randint(1,10)
    if num %2 == 0:
       v-=20
